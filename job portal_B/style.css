@@ -1,0 +1,9 @@
+body{
+    background-color: black;
+    color:white;
+}
+img{
+    height: 70px;
+    width: auto;
+    padding: 0;
+}
