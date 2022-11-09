@@ -1,0 +1,22 @@
+
+#b{
+    background-color: #1E2F97;
+  }
+  #aqua:link{
+    background-color: #82eefd;
+  }
+  #orange{
+    color: orange;
+  }
+  img{
+    width: 100px;
+  }
+  .sidenav{
+    text-align: right;
+  }
+  .container{
+    align-self: left;
+  }
+  .container1{
+    align-self: right;
+  }
