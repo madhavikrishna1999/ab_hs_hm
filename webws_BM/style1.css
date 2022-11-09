@@ -3,13 +3,14 @@
     background-color: #1E2F97;
   }
   #aqua:link{
-    background-color: #82eefd;
+    background-color: transparent;
+    color: #ffffff;
   }
   #orange{
     color: orange;
   }
   img{
-    width: 100px;
+    width: 200px;
   }
   .sidenav{
     text-align: right;
@@ -20,3 +21,18 @@
   .container1{
     align-self: right;
   }
+a{
+    text-decoration: none;
+    background-color: transparent;
+}
+p{
+    text-align: center;
+}
+h2{
+    background-color: rgb(59, 63, 63);
+    color: #82eefd;
+}
+h1{
+    background-color: blue;
+    color: bisque;
+}
