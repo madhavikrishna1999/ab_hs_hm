@@ -10,6 +10,31 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <form action="Welcome.html">
+            <div class="mb-3">
+                <label for="name">User-Name</label>
+                <input type="text" id="text" class="form-control">
+            </div>
+            <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="text" name="email" id="email" class="form-control" >
+            <div id="emailHelp" class="form-text">
+              We will never share your email.
+              </div>
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="text" name="password" id="password" class="form-control" >
+                <div id="passwordHelp" class="form-text">
+                    Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+                  </div>
+                </div>
+                <div class="mb-3">
+                    <label for="submit" class="form-label"></label>
+                    <button type="submit" class="btn btn-primary" class="form-control" >Login</button>
+                    </div>
+        </form>
+    </div>
 </body>
 </html>
