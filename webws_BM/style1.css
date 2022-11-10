@@ -49,30 +49,25 @@ body{
     float:100%;
     text-align: left;
   }
-h1{
-   
-    color: rgb(221, 129, 18);
+h1{ 
+  color: rgb(221, 129, 18);
 }
+
 h2{
   color:deeppink;
 }
 h3{
   color: rgb(93, 0, 255);
 }
-
-
-
-
 /* #inner {
   display: table;
   margin: 0 auto;
   border: 1px solid black;
 } */
-
 #outer {
   display: flex;
   justify-content: right
 } 
-.p{
+.p{ 
   background-color: rgb(117, 58, 171);
-}
+} 
