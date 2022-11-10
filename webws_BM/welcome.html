@@ -10,57 +10,90 @@
     <link rel="stylesheet" href="style1.css">
 </head>
 <body>
-    <nav class="sidenav" data-mdb-right="true">
-        HOME
-      </nav>
-    <center id="b">
-        <h2>Portfolio</h2>
-      <h4>
-        <a id="aqua" href="#education">Education</a> 
-        <a id="aqua" href="#hobbies">Hobbies</a> 
-        <a id="aqua" href="#skills">Skills</a> 
-      </center>
-      <h4>
-        <div class="container">
-            <figure>
-                <center><img src="bindu.jpeg" alt="bindu"><br>
-                <figurecaption>
-                    Bindu Madhavi
-                </figurecaption></center>
-            </figure>
-       <hr>  
-    </div>
-    <div class="container1"></div>
-      <center><h1 id="education">Education</h1></center>
-      <ul>
-        <li>
-            <p>
-                <b> 2017-2021 <br> Bachelor in Technology(EEE)</b> <br>ISTS WOMEN'S ENGINEERING COLLEGE,Rajahmundry with 74%
-            </p>
-        </li>
-        <li>
-            <p>
-                <b> 2015-2017 <br>12th (science)</b> <br>Vidya Vikas Junior College ,Mandapeta with 94.3%
-            </p>
-        </li>   
+          <div id="mySidenav" class="sidenav">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                  <a id="aqua" href="#education">Education  </a> 
+                  <a id="aqua" href="#hobbies">Hobbies  </a> 
+                  <a id="aqua" href="#skills">Skills</a> 
+          </div>
+          <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+      <script>
+            function openNav() {
+             document.getElementById("mySidenav").style.width = "250px"
+            }
         
-      </ul>
-
-      <center><h1 id="hobbies">Hobbies</h1></center>
-      <p>  Reading Books <br>
-           Disccuss about our culture with my ancestors </p><hr>
-      <center><h1 id="skills">Skills</h1></center>
-      <p> 
-         Communication<br>
-         Leadership <br>
-         Adaptability <br>
-         Teamwork<br>
-         Time-Management
-      </p><hr>
-    </div>
-      <h4 id="b">Footer</h4>
-      <center><h5 id="b"><a href="https://www.instagram.com/">Instagram</a> <a href="https://www.google.com/">Google</a> <a href="https://www.facebook.com/">Facebook</a> <a href="https://twitter.com/">Twitter</a></h5></center>
+            function closeNav() {
+             document.getElementById("mySidenav").style.width = "0"
+            }
+      </script>
+   
+    <center >
+      <div class="p">
+        <h1>Portfolio</h1>
       </div>
+    </center><br>
+       
+    <div class="container">
+             <figure>
+                        <center><img src="bindu.jpeg" alt="bindu" class="bindu"><br>
+                    <figurecaption>
+                        <h2>
+                            <b>Bindu Madhavi</b>
+                       </h2>
+                    </figurecaption> 
+                  </center>
+            </figure>
+        <h1 id="education">Education</h1>
+           <ul>
+                   <h3>
+                         <li>
+           
+                              <p><b> 2017-2021 <br> Bachelor in Technology(EEE)</b> <br>ISTS WOMEN'S ENGINEERING COLLEGE,Rajahmundry with 74% </p>
+           
+                        </li>
+                         <li>
+                              <p><b> 2015-2017 <br>12th (science)</b> <br>Vidya Vikas Junior College ,Mandapeta with 94.3%</p>
+                         </li>   
+                   </h3>
+          </ul> 
 
-</body>
+         <h1 id="hobbies">Hobbies</h1>
+           <ul>
+                   <h3>
+                         <li>
+                               <p>Reading Books</p>
+                         </li>
+                          <li>
+                               <p>Disccuss about our culture with my ancestors</p>
+                         </li>
+                  </h3>
+           </ul>
+          <h1 id="skills">Skills</h1>
+           <ul>
+                   <h3>
+                         <li>
+                               <p>Communication</p>
+                        </li>
+                         <li> 
+                               <p>Leadership</p>
+                        </li>
+                         <li>
+                               <p>Adaptability</p>
+                         </li>
+                         <li>
+                               <p>Teamwork</p>
+                        </li>
+                         <li>
+                               <p>Time-Management</p>
+                        </li>
+                  </h3>
+    
+            </ul>
+                 </h3>
+            </ul>
+      </div>
+  </body>
+<div id="outer">
+    <div id="inner"><a href="https://www.instagram.com/"><b>Instagram</b></a>&emsp; <a href="https://www.google.com/"><b>Google</b></a> &emsp;<a href="https://www.facebook.com/"><b>Facebook</b></a> &emsp;<a href="https://twitter.com/"><b>Twitter</b></a></div>
+</div>
 </html>

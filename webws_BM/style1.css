@@ -1,38 +1,78 @@
-
-#b{
-    background-color: #1E2F97;
-  }
-  #aqua:link{
-    background-color: transparent;
-    color: #ffffff;
-  }
-  #orange{
-    color: orange;
-  }
-  img{
-    width: 200px;
-  }
-  .sidenav{
-    text-align: right;
-  }
-  .container{
-    align-self: left;
-  }
-  .container1{
-    align-self: right;
-  }
-a{
-    text-decoration: none;
-    background-color: transparent;
+body{
+         padding: 1rem;
+         margin: auto;
+          background-image: url('plane.jpg');
+    
 }
-p{
-    text-align: center;
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+} 
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.sidenav a:hover {
+  color: pink;
+
+}
+ 
+   img{
+    width: 200px;
+    position: relative;
+    border-radius: 50%;
+    margin-left: -50px;
+    overflow: hidden;
+  } 
+  
+  .container{
+    position: relative; 
+    float:100%;
+    text-align: left;
+  }
+h1{
+   
+    color: rgb(221, 129, 18);
 }
 h2{
-    background-color: rgb(59, 63, 63);
-    color: #82eefd;
+  color:deeppink;
 }
-h1{
-    background-color: blue;
-    color: bisque;
+h3{
+  color: rgb(93, 0, 255);
+}
+
+
+
+
+/* #inner {
+  display: table;
+  margin: 0 auto;
+  border: 1px solid black;
+} */
+
+#outer {
+  display: flex;
+  justify-content: right
+} 
+.p{
+  background-color: rgb(117, 58, 171);
 }
